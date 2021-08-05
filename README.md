@@ -1,24 +1,12 @@
-# README
+README.md
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# タスク管理アプリを開発しよう！
 
-Things you may want to cover:
+これはセレブエンジニアサロンの教材で作られたサンプルアプリケーションです。
 
-* Ruby version
+## 開発環境
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* AWS Cloud9<br>
+* Ruby<br>
+* Rails<br>
+* Git(HTTPSからSSH通信へ変更)
