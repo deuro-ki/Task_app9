@@ -1,6 +1,6 @@
 class User < ApplicationRecord
 
-  
+  has_many :tasks, dependent: :destroy
   attr_accessor :remember_token
   
   before_save {self.email = email.downcase}
@@ -12,6 +12,7 @@ class User < ApplicationRecord
               uniqueness: true
   has_secure_password
   validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
+  
   
   def User.digest(string)
     cost =
